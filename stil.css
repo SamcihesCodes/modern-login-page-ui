@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    background:  #0f172a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.dekor-daire-1{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(135deg , #ec4899 , #8b5cf6);
+    border-radius:50% ;
+    top: -80px;
+    left: -80px;
+    filter: blur(80px);
+    z-index: 0;
+    opacity: 0.6;
+}
+.dekor-daire-2{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(135deg , #3b82f6 , #06b6d4);
+    border-radius:50% ;
+    bottom: -80px;
+    right: -80px;
+    filter: blur(80px);
+    z-index: 0;
+    opacity: 0.6;
+}
+.giris-kapsayici{
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+    z-index: 1;
+}
+.giris-kart{
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px 30px;
+    border-radius: 24px;
+    box-shadow: 0 25px 50px  rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+.giris-baslik{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.profil-icon{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px auto;
+    font-size: 22px;
+    color: #fff;
+    box-shadow: 0 10px 20px  rgba(99, 102, 241, 0.3);
+}
+.giris-baslik h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #f8fafc;
+}
+.giris-baslik p {
+    font-size: 13px;
+    color: #94a3b8;
+}
+.veri-grubu{
+    position: relative;
+    margin-bottom: 20px;
+}
+.veri-grubu i {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+.veri-grubu input{
+    width: 100%;
+    padding: 14px 16px 14px 48px;
+    background: rgba(255, 255, 255 , 0.07);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 14px;
+    outline: none ;
+    transition: all 0.3s ease;
+}
+.veri-grubu input::placeholder{
+    color: #64748b;
+}
+.veri-grubu input:focus{
+    border-color: #818cf8;
+    background: rgba(255, 255, 255 , 0.1);
+    box-shadow: 0 0 0 4px rgba(129, 140, 248, 0.15);
+}
+.veri-grubu input:focus + i{
+    color: #818cf8; 
+}
+.form-secenekler{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: #94a3b8;
+}
+.beni-hatirla{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+.sifre-unuttum{
+    color: #818cf8;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.sifre-unuttum:hover{
+    color: #a5b4fc;
+    text-decoration: underline;
+}
+.giris-buton{
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #6366f1, #3b82f6);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+    transition: transform 0.2s , box-shadow 0.2s , opacity 0.2s;
+}
+.giris-buton:hover{
+    opacity: 0.95;
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px rgba(99, 102, 241, 0.4);
+}
+.kayit-yönlendir{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #94a3b8;
+}
+.kayit-yönlendir a {
+    color: #818cf8;
+    text-decoration: none;
+    font-weight: 500;
+}
+.kayit-yönlendir:hover{
+    text-decoration: underline;
+}

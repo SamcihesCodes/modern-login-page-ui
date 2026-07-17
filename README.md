@@ -13,5 +13,3 @@ Bu proje, **HTML**, **CSS** ve **PHP** kullanılarak tasarlanmış modern bir gi
 * CSS3
 * PHP
 
-## Ekran Görüntüsü
-*(Buraya projenin bir ekran görüntüsünü ekleyebilirsin. Görsel dosyasını repoya yükleyip yolunu buraya yazman yeterli.)*
